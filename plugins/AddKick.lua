@@ -1,4 +1,4 @@
---Begin AddKick.lua By @MahDiRoO
+--Begin AddKick.lua By @sezarinfo
 local function run(msg, matches)
     if matches[1] == 'addkick' and is_admin(msg) then
         if gp_type(msg.to.id) == "channel" then
