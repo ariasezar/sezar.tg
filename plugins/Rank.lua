@@ -1,4 +1,4 @@
-﻿--Begin Rank.lua By @MahDiRoO
+﻿--Begin Rank.lua By @sezarinfo
 do
 
 local function run(msg, matches)
