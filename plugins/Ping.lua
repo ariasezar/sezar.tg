@@ -1,6 +1,6 @@
-﻿--Begin Ping.lua By @MahDiRoO
+﻿--Begin Ping.lua By @sezarinfo
 local datebase = {
-   "Bot Online❤️",
+   "انـلاینم و حـواسم بـه گـروه هـست❤️",
   }
 local function run(msg, matches) 
 return datebase[math.random(#datebase)]
