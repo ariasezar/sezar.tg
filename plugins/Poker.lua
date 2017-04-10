@@ -1,4 +1,4 @@
-﻿--Begin Poker.lua By @MahDiRoO
+﻿--Begin Poker.lua By @sezarinfo
 do
 
 function run(msg, matches)
