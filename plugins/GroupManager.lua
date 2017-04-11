@@ -15,7 +15,7 @@ end
 if not lang then
    return '_Group is already added_'
 else
-return 'گروه در لیست گروه های مدیریتی سـزار هم اکنون موجود است'
+return 'گروه در لیست گروه های مدیریتی ڪرییـد هم اکنون موجود است'
   end
 end
         -- create data array in moderation.json
@@ -73,7 +73,7 @@ end
     if not lang then
   return '*Group has been added*'
 else
-  return 'گروه با موفقیت به لیست گروه های مدیریتی سـزار افزوده شد'
+  return 'گروه با موفقیت به لیست گروه های مدیریتی ڪرییـد افزوده شد'
 end
 end
 
@@ -94,7 +94,7 @@ local lang = redis:get(hash)
   if not lang then
     return '_Group is not added_'
 else
-    return 'گروه به لیست گروه های مدیریتی سـزار اضافه نشده است'
+    return 'گروه به لیست گروه های مدیریتی ڪرییـد اضافه نشده است'
    end
   end
 
@@ -109,7 +109,7 @@ else
  if not lang then
   return '*Group has been removed*'
  else
-  return 'گروه با موفیت از لیست گروه های مدیریتی سـزار حذف شد'
+  return 'گروه با موفیت از لیست گروه های مدیریتی ڪرییـد حذف شد'
 end
 end
 
@@ -171,7 +171,7 @@ local lang = redis:get(hash)
   if not lang then
     return "_Group is not added_"
  else
-    return "گروه به لیست گروه های مدیریتی سـزار اضافه نشده است"
+    return "گروه به لیست گروه های مدیریتی ڪرییـد اضافه نشده است"
   end
  end
   -- determine if table is empty
@@ -204,7 +204,7 @@ local lang = redis:get(hash)
 if not lang then
     return "_Group is not added_"
 else
-return "گروه به لیست گروه های مدیریتی سـزار اضافه نشده است"
+return "گروه به لیست گروه های مدیریتی ڪرییـد اضافه نشده است"
   end
 end
   -- determine if table is empty
@@ -386,7 +386,7 @@ local cmd = arg.cmd
   if not lang then
     return tdcli.sendMessage(data.chat_id_, "", 0, "_Group is not added_", 0, "md")
 else
-    return tdcli.sendMessage(data.chat_id_, "", 0, "_گروه به لیست گروه های مدیریتی سـزار اضافه نشده است_", 0, "md")
+    return tdcli.sendMessage(data.chat_id_, "", 0, "_گروه به لیست گروه های مدیریتی ڪرییـد اضافه نشده است_", 0, "md")
      end
   end
 if not arg.username then return false end
