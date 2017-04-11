@@ -2728,7 +2728,7 @@ local hash = "gp_lang:"..msg.to.id
 local lang = redis:get(hash)
 local data = load_data(_config.moderation.data)
 local chat = msg.to.id
-local user = msg.from.id
+local user = msg.from.id5
 if msg.to.type ~= 'pv' then
 if matches[1] == "id" or matches[1]=="آیدی" or matches[1]=="Id" or matches[1]=="ایدی"then
 if not matches[2] and not msg.reply_id then
@@ -3429,7 +3429,7 @@ end
 if matches[1] == "help" and is_mod(msg) or matches[1] == "Help" and is_mod(msg) then
 if not lang then
 text = [[
-📜Help of Sezar
+📜Help of 
 
 〰〰〰〰〰〰〰〰〰〰〰
 ☆》#دستورات تنظیم مدیر و معاون 
@@ -3567,13 +3567,13 @@ text = [[
 🔶شما دوستان عزیز میتوانید از قرار دادن [!/#] در اول دستور استفاده نماید
 🔷دستورات به زبان انگلیسی هست و جواب دستورات به دو شکل فارسی و انگلیسی قابل تغییر است❕
 〰〰〰〰〰〰〰〰〰〰〰
-➰Powered by :@Sezarinfo
+➰Powered by :@mr1290
 〰〰〰〰〰〰〰〰〰〰〰]]
 
 elseif lang then
 
 text = [[
-📜Help of sezar
+📜Help 
 〰〰〰〰〰〰〰〰〰〰〰
 ☆》#دستورات تنظیم مدیر و معاون 
 
@@ -3711,7 +3711,7 @@ text = [[
 🔶شما دوستان عزیز میتوانید از قرار دادن [!/#] در اول دستور استفاده نماید
 🔷دستورات به زبان انگلیسی هست و جواب دستورات به دو شکل فارسی و انگلیسی قابل تغییر است❕
 〰〰〰〰〰〰〰〰〰〰〰
-➰Powered by :@Sezarinfo
+➰Powered by :@mr1290
 〰〰〰〰〰〰〰〰〰〰〰]]
 end
 return text
@@ -3719,7 +3719,7 @@ end
 if matches[1] == "راهنما" and is_mod(msg) then
 text = [[
 
-📜راهنمای ربات سـزار
+📜راهنمای ربات 
 
 〰〰〰〰〰〰〰〰〰〰〰
 ☆》#دستورات تنظیم مدیر و معاون 
@@ -3847,7 +3847,7 @@ text = [[
 🔷شما دوستان عزیز نمیتوانید از قرار دادن [!/#] در اول دستور استفاده نماید
 🔶دستورات به زبان فارسی هست و جواب دستورات به دو شکل انگلیسی و فارسی قابل تغییر است❕
 〰〰〰〰〰〰〰〰〰〰〰
-➰Powered by :@Sezarinfo
+➰Powered by :@mr1290
 〰〰〰〰〰〰〰〰〰〰〰
 ]]
 return text
